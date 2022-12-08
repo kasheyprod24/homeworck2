@@ -1,7 +1,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;   
-    font-family: 'Raleway', sans-serif;
     width: 1600px;}
 
 .link{text-decoration: none;
@@ -14,7 +13,10 @@ header{
     left: 0px;
     top: 0px;
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    position: absolute;}
+
+.heder-logo{color:#000000;}
 
 .studio1 ,
 .portfolio2{
@@ -103,7 +105,8 @@ main{background: #FFFFFF;}
     color: #FFFFFF;
     text-align: center;}
 
-.portfolio-main{margin-left:215px ;}
+.portfolio-main{margin-left:215px;
+    padding-top: 94px;}
 
 .portfolio-img{display: flex;
     flex-direction: row;}
@@ -153,7 +156,7 @@ padding: 0px 0px 20px 24px;}
     flex-direction: row;
      margin-right: 50px; 
     list-style: none;
-    margin-left: 600px;}
+    margin-left: 380px;}
 
 .nav-buttons{
     margin-right: 8px;
@@ -219,13 +222,18 @@ footer{background: #2F303A;
 color:#FFFFFF ;
 padding:60px 0px 60px 215px ;}
 
-address{font-weight: 400;
+.footer-logo{color: #ffffff;}
+
+address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: #FFFFFF;}
 
-.footer-logo{
+.footer-logo-link{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
