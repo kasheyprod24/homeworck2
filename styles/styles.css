@@ -23,7 +23,8 @@ header{
 
 .heder-buttons{display: flex;
     flex-direction: row;
-    list-style: none;}
+    list-style: none;
+    margin-top: 32px;}
 
 .heder-nav-link{font-weight: 500;
     font-size: 14px;
@@ -50,9 +51,11 @@ header{
     color: #2196F3;
     width: 145px;
     height: 31px;
-    margin-top: 14px;}
+    margin-top: 29px;}
 
-.heder-contacts-link{margin-left: 344px;}
+.heder-contacts-link{margin-left: 344px;
+    margin-top: 32px;
+    padding-bottom: 32px;}
 
 .heder-contackts{
     margin-left: 50px;
